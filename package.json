@@ -1,0 +1,20 @@
+{
+  "name": "Platzi-Curso-de-Asincronismo-con-JavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestorrg18/Platzi-Curso-de-Asincronismo-con-JavaScript.git"
+  },
+  "keywords": [],
+  "author": "Nestor Rios Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nestorrg18/Platzi-Curso-de-Asincronismo-con-JavaScript/issues"
+  },
+  "homepage": "https://github.com/nestorrg18/Platzi-Curso-de-Asincronismo-con-JavaScript#readme"
+}
