@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nestorrg18/Platzi-Curso-de-Asincronismo-con-JavaScript/issues"
   },
-  "homepage": "https://github.com/nestorrg18/Platzi-Curso-de-Asincronismo-con-JavaScript#readme"
+  "homepage": "https://github.com/nestorrg18/Platzi-Curso-de-Asincronismo-con-JavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
