@@ -1,10 +1,10 @@
 {
-  "name": "Platzi-Curso-de-Asincronismo-con-JavaScript",
+  "name": "platzi-curso-de-asincronismo-con-javascript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callbacks/challenge.js"
   },
   "repository": {
     "type": "git",
