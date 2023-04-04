@@ -2,7 +2,7 @@
 //     resolve('Hey')
 // });
 
-const cows = 9;
+const cows = 15;
 
 const countCows = new Promise((resolve, reject) => {
     if(cows > 10){

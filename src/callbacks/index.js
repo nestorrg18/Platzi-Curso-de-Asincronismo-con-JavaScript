@@ -1,11 +1,23 @@
 function sum(n1, n2){
-    return n1 +n2;
+    return n1 + n2;
+}
+function rest(n1, n2){
+    return n1 - n2;
+}
+function mult(n1, n2){
+    return n1 * n2;
+}
+function div(n1, n2){
+    return n1 / n2;
 }
 
 function calc(n1, n2, callback){
-    return callback(n1, n2);
+    console.log(callback(n1, n2));
 }
-console.log(calc(2, 2, sum));
+calc(5, 5, sum);
+calc(5, 5, rest);
+calc(5, 5, mult);
+calc(5, 5, div);
 
 ///
 
@@ -16,7 +28,7 @@ setTimeout(function() {
 function greeting(name) {
     console.log(`Hola ${name}`);
 }
-setTimeout(greeting, 2000, "Nestor" )
+setTimeout(greeting, 2000, "Nestor Rios" )
 
 /// Ejemplo Mozilla: Usar en el navegador
 
