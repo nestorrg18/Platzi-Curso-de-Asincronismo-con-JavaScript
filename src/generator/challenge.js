@@ -9,20 +9,20 @@ async function fetchData(urlApi){
 async function* iterate() {
     try {
         const products = await fetchData(`${API}/products`);
-        yield console.log("Productos cargados");
+        yield "Productos cargados"
 
         const product = await fetchData(`${API}/products/${products[150].id}`);
-        yield console.log(product.title);
+        yield product.title
 
         const category = await fetchData(`${API}/categories/${product.category.id}`);
-        yield console.log(category.name);
+        yield category.name
     } catch (error) {
         console.error(error);
     }
 }
 
 const product = iterate();
-console.log(await product.next().value);
-console.log(await product.next().value);
-console.log(await product.next().value);
-console.log(await product.next().value); // undefined
+console.log(await product.next()); //  { value: 'Productos cargados', done: false }
+console.log(await product.next()); //  { value: 'Tasty Plastic Car', done: false }
+console.log(await product.next()); // { value: 'Clothes', done: false }
+console.log(await product.next()); // { value: undefined, done: true }
